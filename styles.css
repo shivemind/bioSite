@@ -1,16 +1,47 @@
-/* Add your styles here */
-h1 {
-    font-size: 2em;
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    font-size: 1.5em;
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
 
-h3 {
-    font-size: 1.2em;
+/* Main Content */
+main {
+    padding: 20px;
 }
 
-div {
-    margin-bottom: 20px;
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Navigation */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Image Placeholder */
+.img-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 200px;
 }
